@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+h1 {
+    transition: all ease 0.5s;
+    font-size: 176px;
+    color: white;
+}
+.btn-container button{
+    cursor: pointer;
+    margin: 60px;
+    padding: 18px 27px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    box-shadow: rgb(91, 94, 97) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: all ease 0.9s;
+}
+.btn-container button:hover {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
